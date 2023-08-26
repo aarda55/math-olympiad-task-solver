@@ -14,8 +14,8 @@ def equations(vars):
     eq3 = z + abs(x - 2) - 1
     return [eq1, eq2, eq3]
 
-initial_guess = [1000, 1000, 1000] 
-solutions = fsolve(equations, initial_guess)
+init_guess = [1000, 1000, 1000] 
+solutions = fsolve(equations, init_guess)
 
 print("Solutions:")
 for sol in solutions:
