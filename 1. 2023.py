@@ -1,3 +1,6 @@
+"""
+This code calculates all 4 digit numbers, which equals 12 when all digits (besides 0) are multiplied with each other.
+"""
 def mr(number):
     number_str = str(number)
     replaced_str = number_str.replace('0', '1')
